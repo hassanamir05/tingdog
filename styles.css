@@ -1,0 +1,147 @@
+#title {
+    background-color: yellowgreen;
+}
+
+.title {
+    padding-top: 5%;
+    font-family: cursive;
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+.container {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0% 15%;
+}
+
+#title {
+    color: white;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0% 0%;
+}
+
+.nav-link {
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+.download-button {
+    margin: 12% 8% 3% 0;
+}
+
+.title-image {
+    width: 52%;
+    transform: rotate(35deg);
+    position: relative;
+    z-index: 1;
+}
+
+#features {
+    position: relative;
+    z-index: -1;
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    color: green;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: yellowgreen;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.testimonial-item {
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    margin: 7%;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 0 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: yellowgreen;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3%;
+}
+
+@media (max-width:1248px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        transform: rotate(0deg);
+    }
+}
+
+#cta {
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
